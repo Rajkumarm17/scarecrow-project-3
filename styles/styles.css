@@ -1,0 +1,243 @@
+:root {
+    --primary-color: #791E30;
+    --secondary-color: #FFFFDA;
+    --third-color: #00000029;
+    --fourth-color: #011C27;
+    --fifth-color: #FF9900;
+    --primary-font: "Prata", serif;
+    --secondary-font: "Barlow", sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1,
+h2 {
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.h2 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+header .search {
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    border-radius: 0;
+}
+
+/* hero */
+.hero .hero-container {
+    background-color: var(--primary-color);
+}
+
+.hero .hero-1 {
+    position: absolute;
+    bottom: 3.7rem;
+    left: 2rem;
+    right: 2rem;
+}
+
+.hero .hero-container .hero-content-1 {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+.hero .hero-container .hero-content-2 {
+    font: var(--secondary-font);
+    color: var(--fifth-color);
+    font-size: 1.2rem;
+}
+
+.hero .hero-container .btn {
+    font-size: 0.9rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    border: none;
+    background-color: var(--fifth-color);
+    color: var(--primary-color);
+}
+
+/* section */
+.sec-1 .h1 {
+    color: var(--primary-color);
+}
+
+.sec-1 .para-1 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* sec-2 */
+.sec-2 .h1 {
+    color: var(--primary-color);
+}
+
+.sec-2 .para-2 {
+    font-size: 1.1rem;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sec-2 img {
+    width: 2.4rem;
+}
+
+.sec-2 a {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* sec-3 */
+.sec-3 {
+    background-image: url('../assets/sec3-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sec-3 .para-3 {
+    font-size: 1.3rem;
+    color: #ffff;
+}
+
+.sec-3 .card {
+    background-color: var(--secondary-color);
+}
+
+.sec-3 .card .card-text {
+    color: var(--fourth-color);
+}
+
+.sec-3 .card .btn {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: var(--fifth-color);
+}
+
+.sec-3 .button-3 a {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    border: 1px solid #ffff;
+    color: #ffff;
+}
+
+/* section-4 */
+.sec-4 {
+    background-color: var(--secondary-color);
+}
+
+.sec-4 .para-4 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+}
+
+.sec-4 .card {
+    border: none;
+    background-color: var(--secondary-color);
+}
+
+.sec-4 .card .card-text {
+    color: var(--fourth-color);
+}
+
+.sec-4 .card .btn {
+    font-family: var(--secondary-font);
+    color: #ffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: var(--primary-color);
+}
+
+.sec-4 .button-4 a {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* section */
+.sec-5 {
+    background-color: var(--fifth-color);
+}
+
+.sec-5 .para-5 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+}
+
+.sec-5 dt {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.sec-5 dd {
+    padding-bottom: 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.sec-5 .button-5 a {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* section-6 */
+.sec-6 {
+    background-color: var(--primary-color);
+}
+
+.sec-6 .h1 {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color: var(--fifth-color);
+}
+
+.sec-6 .para-6 {
+    font-size: 1.3rem;
+    color: var(--fifth-color);
+}
+.sec-6 dt {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--fifth-color);
+}
+.sec-6 dd{
+    padding-bottom: 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--fifth-color);
+}
+.sec-6 .button-6 a {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    border: 1px solid var(--fifth-color);
+    color: var(--fifth-color);
+}
